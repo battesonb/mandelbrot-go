@@ -1,5 +1,12 @@
 package main
 
+type GradientColor struct {
+	Stop float64
+	R    uint8
+	G    uint8
+	B    uint8
+}
+
 var (
 	GRADIENT = []GradientColor{
 		{

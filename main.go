@@ -18,13 +18,6 @@ const (
 	MAX_ZOOM  = 11.0
 )
 
-type GradientColor struct {
-	Stop float64
-	R    uint8
-	G    uint8
-	B    uint8
-}
-
 func main() {
 	for i := range 100 {
 		ratio := float64(i) / 100.0
